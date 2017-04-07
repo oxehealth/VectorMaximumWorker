@@ -19,6 +19,7 @@ First clone this repository
 
 ```bash
 git clone https://github.com/oxehealth/vector-maximum-worker.git
+cd ./vector-maximum-worker
 ```
 
 The container can be started by using **./run.sh** 
