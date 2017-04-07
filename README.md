@@ -53,6 +53,7 @@ There is also a **./run.sh** which will start the VectorMaximumWorker exe
 
 ```bash
 git clone https://github.com/oxehealth/vector-maximum-worker.git
-cd vector-maximum-worker
+cd ./vector-maximum-worker
+./build.sh
 ./run.sh
 ```
