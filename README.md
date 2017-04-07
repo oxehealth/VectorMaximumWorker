@@ -15,12 +15,14 @@ The code folder is mapped into the container so it is possible to
 edit the hpp/cpp files using whichever editor you prefer.
 
 alternativly you can use the following to start the container:
+
 `docker run -v ./code:/code -w /code -i -t oxehealth/vector-maximum-worker bash`
 
 The container **./run.sh** script will pull the container from dockerhub,
 however if you perfer the container can be rebuilt using **./build.sh**
 
 alternativly use the following to rebuild the container:
+
 `docker build -t vector-maximum-worker .`
 
 sudo access is enabled within the container if you want to install
