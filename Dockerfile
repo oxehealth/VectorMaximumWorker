@@ -7,7 +7,8 @@ RUN apt-get update && \
     apt-get -y install \
         sudo \
         g++ \
-        make
+        make \
+        cmake
 
 COPY ./config/etc/sudoers /etc/sudoers
 
