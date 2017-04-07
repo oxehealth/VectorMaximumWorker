@@ -52,8 +52,12 @@ There is also a **./run.sh** which will start the VectorMaximumWorker exe
 ### Short Version
 
 ```bash
+# On Host Machine 
 git clone https://github.com/oxehealth/vector-maximum-worker.git
 cd ./vector-maximum-worker
+./run.sh
+
+# Within Container
 ./build.sh
 ./run.sh
 ```
